@@ -1,11 +1,24 @@
 {
   "name": "file-metadata-microservice",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Jackson Bates",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonBates/fcc-file-metadata-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JacksonBates/fcc-file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/JacksonBates/fcc-file-metadata-microservice#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "multer": "^1.1.0"
+  }
 }
